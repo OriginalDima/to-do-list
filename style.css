@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+h1 {
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+li {
+    font-size: 1.5rem;
+}
+.container-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top, .container-bottom {
+    padding: 2rem;
+    border: 2px solid #fff;
+}
+
+.input-add {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.btn-add {
+    width: 4rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.storage-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.item-text {
+    display: inherit;
+}
+
+.btn-container {
+    display: inherit;
+}
+
+.btn-done {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-delete {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-done,
+.btn-delete {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.btn-done {
+    color: green;
+}
+
+.btn-delete {
+    color: red;
+    margin-left: .5rem;
+}
+
+.item-done {
+    color: green;
+    /* text-decoration: line-through; */
+}
